@@ -1,8 +1,11 @@
 # Baixando e instalando o projeto
 
 1 - git clone git@github.com:thayscorrea/builders.git
+
 2 - Navegue até o diretório que você clonou o projeto (etapa 1)
+
 3 - npm install (Para instalar as dependências do projeto)
+
 4 - npm start
 
 ## Recursos utilizados
