@@ -1,0 +1,58 @@
+.WFOT1 {
+  border: 2px solid #e1e1e1;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.WFH1 {
+  font: bold 14px Arial, sans-serif;
+  margin-bottom: 6px;
+}
+
+TABLE.WFOT TD {
+  vertical-align: top;
+}
+
+.FCOVTMP {
+  font: 14px Arial, sans-serif;
+  line-height: 16px;
+  padding-bottom: 4px;
+}
+
+.FCOVEXP {
+  font: 12px Arial, sans-serif;
+  line-height: 14px;
+  text-align: center;
+}
+
+.WFI {
+  background-color: #3399ff;
+  padding: 0;
+}
+
+.WTL {
+  color: blue;
+  font-weight: bold;
+}
+
+.WTH {
+  color: red;
+  float: right;
+  font-weight: bold;
+}
+
+.WFLK {
+  font-size: 11px;
+  color: #900;
+  text-decoration: none;
+}
+
+.WFDAY {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#wf_div {
+  padding: 40px;
+}
