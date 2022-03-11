@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Baixando e instalando o projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1 - git clone git@github.com:thayscorrea/builders.git
+2 - Navegue até o diretório que você clonou o projeto (etapa 1)
+3 - npm install (Para instalar as dependências do projeto)
+4 - npm start
 
-## Available Scripts
+## Recursos utilizados
 
-In the project directory, you can run:
+### Geolocation Navigator
 
-### `npm start`
+Recurso usado para pegar a latitude e longitude do usuário através do navegador. Para isso é necesário permitir o acesso que o navegador irá solicitar no compilar o projeto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### OpenWeather API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+API utilizada para pegar o clima da sua localização, usando a latitude e longitude resgatada pelo Geolocatopm Navigator. 
 
-### `npm test`
+Link da API: https://openweathermap.org/api
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Widget para Previsão do Tempo
 
-### `npm run build`
+Esse script faz a mesma função do OpenWeather API, contudo ele traz uma interface mais amigável, por isso foi incorporado no projeto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Link do script: https://www.tititudorancea.com/z/script_previsao_do_tempo_widget_gratis.htm
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### BigDataCloud’s Free Client-Side Reverse Geocoding API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Essa API foi usada para converter a latitude e longitude para o endereço (cidade, estado e código postal). Antes desta implementação, foi implementado a API do Google que se encontra até comentada no arqvuio App.js linha 52. Contudo, houve um problema com o token do Google e com isos não foi possível obter o valor final desejado.
 
-### `npm run eject`
+Link da API: https://www.bigdatacloud.com/geocoding-apis/free-reverse-geocode-to-city-api?gclid=CjwKCAiAg6yRBhBNEiwAeVyL0AUyK5uNN5CsvDd58UN5m3IgNKpMBHO3P5rQEkBdb3Jt4BhE30BJxxoCR6QQAvD_BwE
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Print da tela do sistema em funcionamento
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Print do Sistema](print.png)
